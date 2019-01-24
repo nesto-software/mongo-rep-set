@@ -6,7 +6,7 @@ printf "\n[-] Installing base OS dependencies...\n\n"
 
 # base
 apt-get update
-apt-get install -y --no-install-recommends ca-certificates openssl numactl wget net-tools
+apt-get install -y --no-install-recommends ca-certificates openssl numactl wget netcat
 
 
 # Gosu
